@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form</title>
+		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="form.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap"
+	</head>
+
+	<body>
+		<nav>
+			<img src="pictures/cookie.jpg" alt="thomaslogo" id="logo" />
+			<div class="nav">
+				<a href="index.html">Home</a>
+				<a href="table.html">Table</a>
+				<a href="form.html">Form</a>
+				<a href="blog.html">Blog</a>
+			</div>
+		</nav>
+		<main>
+			<h1>Forms</h1>
+			<p>Use this page to create your forms.</p>
+		</main>
+		<hr />
+		<div class="signin">
+			<h2>Sign In</h2>
+			<form action="">
+				<input type="text" name="user" id="user" placeholder="Username" minlength="4" maxlength="12" required />
+				<input type="password" name="password" id="password" placeholder="Password" />
+				<button>Login</button>
+			</form>
+		</div>
+		<hr />
+		<div class="pizza">
+			<h2>Checkboxes</h2>
+			<form action="">
+				<h3>Pizza Toppings</h3>
+				<div class="meat">
+					<h4>Meats</h4>
+					<p>
+						<input type="checkbox" name="pepperoni" id="pepperoni" />
+						<label for="pepperoni">Pepperoni</label>
+					</p>
+					<p>
+						<input type="checkbox" name="hamburger" id="hamburger" />
+						<label for="hamburger">Hamburger</label>
+					</p>
+					<p>
+						<input type="checkbox" name="sausage" id="sausage" />
+						<label for="sausage">Sausage</label>
+					</p>
+					<p>
+						<input type="checkbox" name="bacon" id="bacon" />
+						<label for="bacon">Bacon</label>
+					</p>
+				</div>
+				<div class="veggies">
+					<h4>Veggies</h4>
+					<p>
+						<input type="checkbox" name="pineapple" id="pineapple" />
+						<label for="pineapple">Pineapple</label>
+					</p>
+					<p>
+						<input type="checkbox" name="tomato" id="tomato" />
+						<label for="tomato">Tomato</label>
+					</p>
+					<p>
+						<input type="checkbox" name="bellpepper" id="bellpepper" />
+						<label for="bellpepper">Bell Pepper</label>
+					</p>
+					<p>
+						<input type="checkbox" name="spinach" id="spinach" />
+						<label for="spinach">Spinach</label>
+					</p>
+				</div>
+				<button>Submit</button>
+			</form>
+		</div>
+		<hr />
+		<div class="scantron">
+			<h2>Radio</h2>
+			<!-- Don't forget to add the value id to your radio choices! -->
+			<!-- id is used to group radio choices together -->
+			<h3>Test Answer Scantron</h3>
+			<form action="">
+				<ol>
+					<li>
+						<input type="radio" value="a" name="one" id="aone" required />
+						<label for="aone">A</label>
+						<input type="radio" value="b" name="one" id="bone" />
+						<label for="bone">B</label>
+						<input type="radio" value="c" name="one" id="cone" />
+						<label for="cone">C</label>
+						<input type="radio" value="d" name="one" id="done" />
+						<label for="done">D</label>
+					</li>
+					<li>
+						<input type="radio" value="a" name="two" id="atwo" required />
+						<label for="atwo">A</label>
+						<input type="radio" value="b" name="two" id="btwo" />
+						<label for="btwo">B</label>
+						<input type="radio" value="c" name="two" id="ctwo" />
+						<label for="ctwo">C</label>
+						<input type="radio" value="d" name="two" id="dtwo" />
+						<label for="dtwo">D</label>
+					</li>
+					<li>
+						<input type="radio" value="a" name="three" id="athree" required />
+						<label for="athree">A</label>
+						<input type="radio" value="b" name="three" id="bthree" />
+						<label for="bthree">B</label>
+						<input type="radio" value="c" name="three" id="cthree" />
+						<label for="cthree">C</label>
+						<input type="radio" value="d" name="three" id="dthree" />
+						<label for="dthree">D</label>
+					</li>
+					<li>
+						<input type="radio" value="a" name="four" id="afour" required />
+						<label for="afour">A</label>
+						<input type="radio" value="b" name="four" id="bfour" />
+						<label for="bfour">B</label>
+						<input type="radio" value="c" name="four" id="cfour" />
+						<label for="cfour">C</label>
+						<input type="radio" value="d" name="four" id="dfour" />
+						<label for="dfour">D</label>
+					</li>
+					<li>
+						<input type="radio" value="a" name="five" id="afive" required />
+						<label for="afive">A</label>
+						<input type="radio" value="b" name="five" id="bfive" />
+						<label for="bfive">B</label>
+						<input type="radio" value="c" name="five" id="cfive" />
+						<label for="cfive">C</label>
+						<input type="radio" value="d" name="five" id="dfive" />
+						<label for="dfive">D</label>
+					</li>
+					<li>
+						<input type="radio" value="a" name="six" id="asix" required />
+						<label for="asix">A</label>
+						<input type="radio" value="b" name="six" id="bsix" />
+						<label for="bsix">B</label>
+						<input type="radio" value="c" name="six" id="csix" />
+						<label for="csix">C</label>
+						<input type="radio" value="d" name="six" id="dsix" />
+						<label for="dsix">D</label>
+					</li>
+					<li>
+						<input type="radio" value="a" name="seven" id="aseven" required />
+						<label for="aseven">A</label>
+						<input type="radio" value="b" name="seven" id="bseven" />
+						<label for="bseven">B</label>
+						<input type="radio" value="c" name="seven" id="cseven" />
+						<label for="cseven">C</label>
+						<input type="radio" value="d" name="seven" id="dseven" />
+						<label for="dseven">D</label>
+					</li>
+					<li>
+						<input type="radio" value="a" name="eight" id="aeight" required />
+						<label for="aeight">A</label>
+						<input type="radio" value="b" name="eight" id="beight" />
+						<label for="beight">B</label>
+						<input type="radio" value="c" name="eight" id="ceight" />
+						<label for="ceight">C</label>
+						<input type="radio" value="d" name="eight" id="deight" />
+						<label for="deight">D</label>
+					</li>
+					<li>
+						<input type="radio" value="a" name="nine" id="anine" required />
+						<label for="anine">A</label>
+						<input type="radio" value="b" name="nine" id="bnine" />
+						<label for="bnine">B</label>
+						<input type="radio" value="c" name="nine" id="cnine" />
+						<label for="cnine">C</label>
+						<input type="radio" value="d" name="nine" id="dnine" />
+						<label for="dnine">D</label>
+					</li>
+					<li>
+						<input type="radio" value="a" name="ten" id="aten" required />
+						<label for="aten">A</label>
+						<input type="radio" value="b" name="ten" id="bten" />
+						<label for="bten">B</label>
+						<input type="radio" value="c" name="ten" id="cten" />
+						<label for="cten">C</label>
+						<input type="radio" value="d" name="ten" id="dten" />
+						<label for="dten">D</label>
+					</li>
+				</ol>
+				<button>Submit</button>
+			</form>
+		</div>
+		<hr />
+		<div class="size">
+			<h2>Drop Down Box</h2>
+			<form action="">
+				<label for="size">Select a Size:</label>
+				<select name="size" id="size">
+					<option value="">Select a Size</option>
+					<option value="xs">Extra Small</option>
+					<option value="s">Small</option>
+					<option value="m">Medium</option>
+					<option value="l">Large</option>
+					<option value="xl">Extra Large</option>
+				</select>
+				<p>
+					<label for="request">Any Special Requests?</label>
+				</p>
+				<p>
+					<textarea name="request" id="request" cols="30" rows="10" placeholder="Enter Your Requests Here"></textarea>
+				</p>
+				<p>
+					<button>Submit</button>
+				</p>
+			</form>
+		</div>
+	</body>
+</html>

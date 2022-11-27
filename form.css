@@ -1,0 +1,12 @@
+div.meat {
+    display: inline-block;
+}
+
+div.veggies {
+    display: inline-block;
+    transform: translateX(20px);
+}
+
+div.veggies+button {
+    display: block;
+}
